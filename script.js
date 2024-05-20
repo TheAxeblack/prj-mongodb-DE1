@@ -139,12 +139,12 @@ db.matchs.insertOne({
     scoreDomicile: 5,
     scoreExterieur: 2,
     joueursDomicile: [
-        {idJoueurs: joueurs.findOne({nom: "Mbappé"})._id, note: 8},
-        {idJoueurs: joueurs.findOne({nom: "Navas"})._id, note: 7},
-        {idJoueurs: joueurs.findOne({nom: "Hakimi"})._id, note: 6},
-        {idJoueurs: joueurs.findOne({nom: "Ruiz"})._id, note: 5},
+        {nom: "Mbappé", prenom: "Kylian", poste: "Attaquant", note: 8},
+        {nom: "Navas", prenom: "Keylor", poste: "Gardien", note: 7},
+        {nom: "Hakimi", prenom: "Achraf", poste: "Défenseur", note: 6},
+        {nom: "Ruiz", prenom: "Fabian", poste: "Milieu", note: 7},
     ],
     joueursExterieur: [
-        {idJoueurs: joueurs.findOne({nom: "Ben Yedder"})._id, note: 7},
+        {nom: "Ben Yedder", prenom: "Wissam", poste: "Attaquant", note: 7},
     ],
 });
