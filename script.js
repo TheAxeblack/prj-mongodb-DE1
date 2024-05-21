@@ -1,7 +1,7 @@
 /**
  * Auteurs : Mathis LÉCUYER - Léandro VERCASSON
  *
- * Script.js : Fichier contenant les scripts MongoDB
+ * Script.js : Fichier contenant les scripts MongoDB //test
  * */
 
 db = connect("mongodb://localhost:27017/football");
